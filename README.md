@@ -4,6 +4,10 @@ Okuma ve su takibi için geliştirilmiş, küçük ödül sistemine sahip bir ki
 
 Uygulama, günlük okuma sayfası ve içilen su miktarını kaydeder; bu işlemler için yıldız puanı üretir ve ödül mağazasına erişim sağlar. Kullanıcıların ilerlemelerini görsel olarak takip etmeleri amaçlanır.
 
+## Ekran Görüntüsü
+
+![Sweet Habits uygulama ekranı](screenshots/sweet-habits.png)
+
 ## Özellikler
 
 - Günlük okuma kaydı
