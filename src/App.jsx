@@ -254,11 +254,11 @@ function TaskEditor({ onAdd }) {
 }
 
 function TaskList({ tasks, onToggle, onRemove }) {
-  if (tasks.length === 0) return <div className="muted">Görev yok</div>;
+  if (tasks.length === 0) return <div className="muted task-empty">Görev yok</div>;
   return (
     <ul className="task-list">
       {tasks.map(t => (
-        <li key={t.id} className={t.done ? 'done' : ''}>
+        <li key={t.id} className={t.done ? 'done task-item' : 'task-item'}>
           <label>
             <input type="checkbox" checked={t.done} onChange={() => onToggle(t.id)} />
             <span>{t.text}</span>
